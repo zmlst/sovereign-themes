@@ -1,15 +1,17 @@
 # Sovereign Themes
 
-Sovereign 官方主题素材。此仓库保存 GIF、PNG 和主题配置。
+Sovereign 官方示例主题素材。
 
-## 自动使用
+## 当前示例 v2
 
-启用已接入此仓库的 Sovereign 版本后，主题目录会自动创建，素材下载成功后缓存在本地。已有缓存可离线使用。
+固定图标，不缩放、不转圈；青蓝、紫色与粉色渐变刷新。GIF 共 160 帧，每帧 20 毫秒，3.2 秒循环。
+
+匹配版本的 Sovereign 会自动下载并缓存示例素材；点击「一键试用动态主题」即可使用。旧官方图片会自动更新，用户自定义图片和配置保留。
 
 ## 自定义
 
-本地目录：Cherax/Lua/SovereignThemes/Sovereign-Demo。复制整个主题文件夹后，修改 theme.ini 或替换其中的图片，即可制作自己的主题。GIF 动画使用原文件即可。
+复制本地 Cherax/Lua/SovereignThemes/Sovereign-Demo 文件夹，修改 theme.ini 或替换图片即可。
 
-## 发布约定
+## 版本
 
-v1/Sovereign-Demo 的文件内容和 SHA-256 已固定。更新官方素材时发布新版本目录，并同步更新客户端校验信息。
+v1 保留供旧版客户端使用。v2/Sovereign-Demo 为当前示例；客户端固定提交地址和 SHA-256 校验。

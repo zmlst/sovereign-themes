@@ -1,15 +1,23 @@
 {
-  "version": "v1",
+  "version": "v2",
   "files": [
     {
       "path": "images/sovereign-icon.gif",
-      "bytes": 471702,
-      "sha256": "bfe066b6527dd4b7c443fd48c71d42599a8ef857f3f6e0b15293523d5d1fa97b"
+      "bytes": 1034841,
+      "sha256": "a185fcd68df6f6dc8e1ffe83659fd3c233ee39e3b54e741830ba20127d0ee6cf",
+      "previous": {
+        "bytes": 471702,
+        "sha256": "bfe066b6527dd4b7c443fd48c71d42599a8ef857f3f6e0b15293523d5d1fa97b"
+      }
     },
     {
       "path": "images/sovereign-brand.gif",
-      "bytes": 786964,
-      "sha256": "d2fdc0ed8713b99e65b25d0858ab6c4e76a9a09f0b6e643df38c964344596b9d"
+      "bytes": 1403590,
+      "sha256": "9db626f839ee3db293dc1c28c3b6c780a1dacecaf9b33e82a66c75ea7f492291",
+      "previous": {
+        "bytes": 786964,
+        "sha256": "d2fdc0ed8713b99e65b25d0858ab6c4e76a9a09f0b6e643df38c964344596b9d"
+      }
     },
     {
       "path": "images/background.png",
@@ -18,8 +26,19 @@
     },
     {
       "path": "theme.ini",
-      "bytes": 948,
-      "sha256": "1b9bc36ba2717f904e26f4bbd221932995d19c6542acb848cd00ff3e9ddaecb7"
+      "bytes": 952,
+      "sha256": "6d819cf16133dd478293a23fce1f53fe0528743d5f2ebd14e202363d81838e71",
+      "previous": {
+        "bytes": 948,
+        "sha256": "1b9bc36ba2717f904e26f4bbd221932995d19c6542acb848cd00ff3e9ddaecb7"
+      }
     }
-  ]
+  ],
+  "animation": {
+    "frames": 160,
+    "frame_ms": 20,
+    "fps": 50,
+    "scale_animation": false,
+    "rotation_animation": false
+  }
 }
