@@ -1,0 +1,5 @@
+*.gif binary
+*.png binary
+*.ini -text
+*.json -text
+*.md text eol=lf
